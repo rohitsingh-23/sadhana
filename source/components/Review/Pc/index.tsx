@@ -4,9 +4,9 @@ import profileLogo from "../../../../assets/profile_logo.png";
 const Index: React.FC = () => {
     return (
         <section className="bg-[#001d2d45] hidden md:flex flex-col items-center text-base-white">
-            <p className="pb-[86px] text-[36px] font-[700]">What Customers Says About Us</p>
-            <p className="pb-[60px] text-[24px] font-[700]">Top reviews from India</p>
-            <div className="flex flex-col items-center pb-[86px]">
+            <p className="pb-[35px] text-[30px] font-[700]">What Customers Says About Us</p>
+            <p className="pb-[40px] text-[20px] font-[700]">Top reviews from India</p>
+            <div className="flex flex-col items-center pb-[40px] w-[40%]">
                 {/* Image */}
                 <div className="bg-[#D9D9D9] w-[54px] h-[54px] flex justify-center items-center rounded-full">
                     <Image src={profileLogo} alt="Profile" width={39} height={39} />
@@ -37,21 +37,20 @@ const Index: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="max-w-[474px] pt-[13px] text-[#DBDBDB] flex flex-col justify-center items-center">
-                    <p className="text-[#DBDBDB] text-[16px] text-center font-[400]">Reviewed in India on 15 September 2023</p>
+                <div className="max-w-[474px] pt-[13px] text-[12px] text-[#DBDBDB] flex flex-col justify-center items-center">
+                    <p className="text-[#DBDBDB] text-center font-[400]">Reviewed in India on 15 September 2023</p>
                     <div className="flex items-center justify-end gap-[20px] pt-[11px]">
                             <p className="pl-[50px]">God : Shiva</p>
                             <svg xmlns="http://www.w3.org/2000/svg" width="2" height="27" viewBox="0 0 2 27" fill="none">
                                 <path d="M1 1L1 26" stroke="white" stroke-linecap="round" />
                             </svg>
-                            <p>Verified Purchase</p>
+                            <p >Verified Purchase</p>
                     </div>
                 </div>
 
-                <p className="text-[20px] font-[400] text-base-white pt-[11px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <p className="text-[14px] text-center font-[300] text-base-white pt-[11px]">Sadhana App has provided me an opportunity, that I don't miss out on my prayers on any day, even when I am travelling. This ensures that later I don’t feel guilty of missing my daily practice. </p>
             </div>
-
-            <div className="flex flex-col items-center pb-[230px]">
+            <div className="flex flex-col items-center pb-[86px] w-[40%]">
                 {/* Image */}
                 <div className="bg-[#D9D9D9] w-[54px] h-[54px] flex justify-center items-center rounded-full">
                     <Image src={profileLogo} alt="Profile" width={39} height={39} />
@@ -82,18 +81,18 @@ const Index: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="max-w-[474px] pt-[13px] text-[#DBDBDB] flex flex-col justify-center items-center">
-                    <p className="text-[#DBDBDB] text-[16px] text-center font-[400]">Reviewed in India on 15 September 2023</p>
+                <div className="max-w-[474px] pt-[13px] text-[12px] text-[#DBDBDB] flex flex-col justify-center items-center">
+                    <p className="text-[#DBDBDB] text-center font-[400]">Reviewed in India on 15 September 2023</p>
                     <div className="flex items-center justify-end gap-[20px] pt-[11px]">
                             <p className="pl-[50px]">God : Shiva</p>
                             <svg xmlns="http://www.w3.org/2000/svg" width="2" height="27" viewBox="0 0 2 27" fill="none">
                                 <path d="M1 1L1 26" stroke="white" stroke-linecap="round" />
                             </svg>
-                            <p>Verified Purchase</p>
+                            <p >Verified Purchase</p>
                     </div>
                 </div>
 
-                <p className="text-[20px] font-[400] text-base-white pt-[11px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <p className="text-[14px] text-center font-[300] text-base-white pt-[11px]"> Immense thanks to the VSF team for guiding our path to self-purification. The app's reminders, tips, and tracking are invaluable in building positive habits. Reading texts, meditation sessions are deeply impactful, evoking feelings of being in the presence of the divine. It encourages mindful thinking and mantra chanting, especially when negative thoughts arise.</p>
             </div>
         </section>
     );
