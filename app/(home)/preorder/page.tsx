@@ -9,6 +9,7 @@ import unCheckIcon from "@/assets/uncheck-icon.png"
 import tab1 from "@/assets/cart_tab1.png"
 import newtab1 from "@/assets/new_cart_tab1.png"
 import shippingLogo from "@/assets/shipping_logo.png"
+import warrentyIcon from "@/assets/warrenty-icon.png"
 import video from "@/assets/video.png"
 import customerSupportLogo from "@/assets/customer_support.png"
 import newtab1Cover from "@/assets/new_cart_tab_list.png"
@@ -78,16 +79,16 @@ const PreOrder = () => {
                             </div>
                         </div>
                         <div className='w-[40%] mt-[20px] mr-[5%]'>
-                            <p className='text-[20px] font-[500]'>Sadhana Tablet</p>
-                            <p className='text-[14px] font-[300]'>Your Path to Spiritual Awakening</p>
-                            <p className='text-[10px] font-[300] w-[75%] mt-[20px]'>Embark on a profound spiritual journey with the world’s first customised tablet for transformative spiritual Apps and content.</p>
+                            <p className='text-[22px] font-[500]'>Sadhana Tablet</p>
+                            <p className='text-[16px] font-[300]'>Your Path to Spiritual Awakening</p>
+                            <p className='text-[14px] font-[300] w-[75%] mt-[20px]'>Embark on a profound spiritual journey with the world’s first customised tablet for transformative spiritual Apps and content.</p>
                             <p className='text-[25px] font-[700] w-[75%] mt-[50px]'>INR 3,900 + GST</p>
                             <p className='text-[20px] font-[300] w-[75%]'>M.R.P : INR 4,300 + GST</p>
                             <div className="mt-[20px] z-20 absolute">
                                 <PrimaryButton2 text={"Add to Bag"} pathUrl={"checkout"} width="w-[180px]" />
                             </div>
                             <p className='text-[12px] mt-[100px]'>Only 3 stocks left!</p>
-                            <p className='text-[10px] font-[300] w-[75%] mt-[10px]'>Complimentary:  Includes Hand-Painted Lord Shiva Flip Case for Limited Time Only</p>
+                            <p className='text-[14px] font-[300] w-[75%] mt-[10px]'>Complimentary:  Includes Hand-Painted Lord Shiva Flip Case for Limited Time Only</p>
                             <div className='mt-[40px]'>
                                 <hr />
                                 <div className='flex justify-between mt-[15px] mb-[15px]'>
@@ -95,8 +96,8 @@ const PreOrder = () => {
                                         <Image width={50} src={shippingLogo} alt='shipping_logo' />
                                         <p className='text-[10px] text-center mt-[8px]'>World wide Shipping</p>
                                     </div>
-                                    <div className='w-[80px] flex flex-col items-center'>
-                                        <Image width={50} src={shippingLogo} alt='shipping_logo' />
+                                    <div className='w-[40px] flex flex-col items-center'>
+                                        <Image width={50} src={warrentyIcon} alt='shipping_logo' />
                                         <p className='text-[10px] text-center mt-[8px]'>12-Month Replacement Warranty</p>
                                     </div>
                                     <div className='w-[80px] flex flex-col items-center'>

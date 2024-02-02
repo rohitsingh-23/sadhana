@@ -38,14 +38,8 @@ const Index: React.FC = () => {
                 </div>
 
                 <div className="max-w-[474px] pt-[13px] text-[12px] text-[#DBDBDB] flex flex-col justify-center items-center">
-                    <p className="text-[#DBDBDB] text-center font-[400]">Reviewed in India on 15 September 2023</p>
-                    <div className="flex items-center justify-end gap-[20px] pt-[11px]">
-                            <p className="pl-[50px]">God : Shiva</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="2" height="27" viewBox="0 0 2 27" fill="none">
-                                <path d="M1 1L1 26" stroke="white" stroke-linecap="round" />
-                            </svg>
-                            <p >Verified Purchase</p>
-                    </div>
+                    <p className="text-[#DBDBDB] text-center font-[400]">What customers say about us</p>
+                    
                 </div>
 
                 <p className="text-[14px] text-center font-[300] text-base-white pt-[11px]">Sadhana App has provided me an opportunity, that I don't miss out on my prayers on any day, even when I am travelling. This ensures that later I don’t feel guilty of missing my daily practice. </p>
@@ -82,14 +76,8 @@ const Index: React.FC = () => {
                 </div>
 
                 <div className="max-w-[474px] pt-[13px] text-[12px] text-[#DBDBDB] flex flex-col justify-center items-center">
-                    <p className="text-[#DBDBDB] text-center font-[400]">Reviewed in India on 15 September 2023</p>
-                    <div className="flex items-center justify-end gap-[20px] pt-[11px]">
-                            <p className="pl-[50px]">God : Shiva</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="2" height="27" viewBox="0 0 2 27" fill="none">
-                                <path d="M1 1L1 26" stroke="white" stroke-linecap="round" />
-                            </svg>
-                            <p >Verified Purchase</p>
-                    </div>
+                    <p className="text-[#DBDBDB] text-center font-[400]">What customers say about us</p>
+                    
                 </div>
 
                 <p className="text-[14px] text-center font-[300] text-base-white pt-[11px]"> Immense thanks to the VSF team for guiding our path to self-purification. The app's reminders, tips, and tracking are invaluable in building positive habits. Reading texts, meditation sessions are deeply impactful, evoking feelings of being in the presence of the divine. It encourages mindful thinking and mantra chanting, especially when negative thoughts arise.</p>
